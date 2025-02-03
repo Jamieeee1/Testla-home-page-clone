@@ -71,11 +71,14 @@ body{
 
 section {
     width: 100%;
-    height: 600px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
 
     h2{
         padding: 0;
@@ -89,9 +92,86 @@ section {
     }
 }
 
+section .property-option {
+    display: flex;
+    gap: 1.5em;
+
+    a {
+        padding-inline: 3rem;
+        padding-block: 10px;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+}
+
+section .property-option .order {
+    background-color: #0000ff86;
+    color: #fff;
+}
+
+section .property-option .learn{
+    background-color: antiquewhite;
+    color: black;
+}
+
+
 #section-one {
     background-image: url(Images/Model\ X.jpg);
-    background-position: center;
-    background-size: contain;
 }
+#section-two {
+    background-image: url(Images/Model\ S.jpg);
+}
+#section-three {
+    background-image: url(Images/Model\ 3.jpg);
+}
+#section-four {
+    background-image: url(Images/Model\ X.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
