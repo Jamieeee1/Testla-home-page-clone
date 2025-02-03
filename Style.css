@@ -1,0 +1,97 @@
+:root {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#top-ad {
+    background: orange;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-block: 1.5em;
+    text-align: center;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding-block: 6px;
+}
+
+#hero .logo {
+    width: 30dvw;
+}
+#hero .logo h2 {
+    margin: 0;
+    padding: 0;
+    margin-left: 2.5em;
+}
+
+#hero nav{
+
+}
+
+#hero nav ul{
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    align-items: center;
+}
+
+#hero nav li{
+    list-style: none;
+}
+
+#hero nav li button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-inline: 10px;
+    padding-block: 6px;
+}
+
+#hero nav li a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    padding-inline: 10px;
+    padding-block: 6px;
+}
+
+#hero .others {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    h2{
+        padding: 0;
+        margin: 0;
+        font-size: 4rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+#section-one {
+    background-image: url(Images/Model\ X.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
