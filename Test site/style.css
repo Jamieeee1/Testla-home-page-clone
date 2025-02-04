@@ -1,0 +1,123 @@
+#vehicles{
+    width: 100%;
+    height: max-content;
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+#vehicles .first-section {
+
+    .images {
+        width: 250px;
+        height: 160px;
+    }
+
+    img {
+        width: inherit;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+#vehicles .first-section {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-left: 11em;
+    width: 800px;
+}
+
+#vehicles .first-section .sub-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.divider {
+    width: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    margin-inline: 2em;
+}
+
+.last-section {
+    ul{
+        padding-left: 0;
+        margin-left: 20px;
+    }
+    li{
+        list-style: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
