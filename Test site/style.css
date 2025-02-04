@@ -53,6 +53,10 @@
     }
     li{
         list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-block: 1em;
+        font-weight: 600;
     }
 }
 
