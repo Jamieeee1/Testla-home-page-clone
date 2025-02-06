@@ -1,16 +1,26 @@
 const header = document.getElementById("hero");
 const navButtons = document.querySelectorAll(".nav-button");
 
-navButtons.forEach(button => {
-    button.addEventListener('mouseover', () =>header.classList.remove("whitebc"))
+const navDrops = document.getElementById("vehicle")
 
-    button.addEventListener('mouseout', () =>header.classList.remove("whitebc"))
+navButtons.forEach(button => {
+    button.addEventListener('mouseover', () => {
+        header.toggleAttribute("hovered")
+        navDrops.toggleAttribute("hovered")
+    })
+
+    button.addEventListener('mouseout', () =>{
+        header.toggleAttribute("hovered")  
+        navDrops.toggleAttribute("hovered")  
+    })
 })
 
-// function changeBackground() {
-//     header.classList.add("whitebc")
-// }
 
-// function removeBackground() {
-//     header.classList.remove("whitebc")
-// }
+
+
+
+
+
+
+
+
