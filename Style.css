@@ -155,17 +155,17 @@ body{
     padding-top: 50px;
     padding-bottom: 30px;
     background-color: #fff;
-
     display: none;
+    max-height: 500px;
+    overflow: auto;
 }
 
-.nav-drop[hovered] {
+.nav-drop[hoveredd] {
     display: flex;
 }
 
 #vehicles{
     width: 100%;
-    height: max-content;
 
     a {
         text-decoration: none;
