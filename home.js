@@ -6,24 +6,15 @@ let isHovering = false
 
 navButtons.forEach(button => {
     button.addEventListener('mouseover', () => {
-        header.toggleAttribute("hovered")
+        header.style.backgroundColor = "white";
+        header.style.color = "black";
 
         navDrops.forEach(div=> {
             div.style.display = "flex";
-            
-            // div.addEventListener('mouseenter', () => {
-            //     isHovering = true;
-            // });
-
-            // div.addEventListener('mouseleave', () => {
-            //     isHovering = false;
-            // });
-
         })
     })
 
-    button.addEventListener('mouseout', () =>{
-        // header.toggleAttribute("hovered")  
+    button.addEventListener('mouseout', () =>{        
 
         navDrops.forEach(div=> {
 
@@ -31,18 +22,73 @@ navButtons.forEach(button => {
                 isHovering = true;
             });
 
-            div.addEventListener('mouseleave', () => {
-                isHovering = false;
-            });
-
-            if(!isHovering) {
-                div.style.display = "flex";
-            } else {
-                div.style.display = "none";
-            }
         })
     })
 })
+
+navDrops.forEach(div => {
+    div.addEventListener('mouseleave', () => {
+        header.style.backgroundColor = "transparent";
+        header.style.color = "white";
+        div.style.display = "none";
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -124,8 +124,12 @@ body{
 }
 
 .classes .property-option .order {
-    background-color: #0000ff86;
+    background-color: blue;
     color: #fff;
+}
+
+.classes .property-option .order:hover {
+    background-color: darkblue;
 }
 
 .classes .property-option .learn{
