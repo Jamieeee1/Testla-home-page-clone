@@ -28,16 +28,24 @@ navButtons.forEach(button => {
     })
 })
 
-navDrops.forEach(div => {
-    div.addEventListener('mouseleave', () => {
-        header.style.backgroundColor = "transparent";
-        header.style.color = "white";
+// navDrops.forEach(div => {
+//     div.addEventListener('mouseleave', () => {
+//         header.style.backgroundColor = "transparent";
+//         header.style.color = "white";
+//         div.style.display = "none";
+//         divArea.style.display = "none";
+//     })
+// })
+
+divArea.addEventListener('mouseleave', () => {
+    header.style.backgroundColor = "transparent";
+    header.style.color = "white";
+    divArea.style.display = "none";
+    
+    navDrops.forEach(div => {
         div.style.display = "none";
-        divArea.style.display = "none";
     })
 })
-
-
 
 
 

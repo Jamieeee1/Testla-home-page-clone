@@ -157,11 +157,14 @@ body{
     max-height: 500px;
     overflow-y: scroll;
     display: none;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
 }
 
-.nav-drop {
+#area .nav-drop {
     width: 100%;
-    z-index: 3;
+    z-index: 4;
     padding-top: 50px;
     padding-bottom: 30px;
     background-color: #fff;
@@ -174,12 +177,12 @@ body{
     }
 }
 
-.nav-drop[hoveredd] {
+#area .nav-drop[hoveredd] {
     display: flex;
 }
 
 
-.nav-drop .first-section {
+#area .nav-drop .first-section {
 
     .images {
         width: 250px;
@@ -193,7 +196,7 @@ body{
     }
 }
 
-.nav-drop .first-section {
+#area .nav-drop .first-section {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
@@ -201,7 +204,7 @@ body{
     width: 800px;
 }
 
-.nav-drop .first-section .sub-sections {
+#area .nav-drop .first-section .sub-sections {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,7 +212,7 @@ body{
     text-align: center;
 }
 
-.divider {
+#area .divider {
     width: 3px;
     background-color: rgba(0, 0, 0, 0.2);
 
