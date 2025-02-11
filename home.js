@@ -4,6 +4,7 @@ const divArea = document.getElementById('area')
 
 const navDrops = document.querySelectorAll(".nav-drop")
 let isHovering = false
+let currentNav = ""
 
 navButtons.forEach(button => {
     button.addEventListener('mouseover', () => {
@@ -11,22 +12,22 @@ navButtons.forEach(button => {
         header.style.color = "black";
         divArea.style.display = "block";
 
+        currentNav = button.id
+
+        console.log(currentNav)
+
         navDrops.forEach(div=> {
-            div.style.display = "flex";
+            
+            if(currentNav === div.id ) {
+                div.style.display = "flex";
+            } else {
+                div.style.display = "none";
+            }
         })
     })
 
-    button.addEventListener('mouseout', () =>{        
-
-        navDrops.forEach(div=> {
-
-            div.addEventListener('mouseenter', () => {
-                isHovering = true;
-            });
-
-        })
-    })
 })
+
 
 // navDrops.forEach(div => {
 //     div.addEventListener('mouseleave', () => {

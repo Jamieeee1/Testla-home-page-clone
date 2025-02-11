@@ -212,14 +212,14 @@ body{
     text-align: center;
 }
 
-#area .divider {
+#area .nav-drop .divider {
     width: 3px;
     background-color: rgba(0, 0, 0, 0.2);
 
     margin-inline: 2em;
 }
 
-.last-section {
+#area .nav-drop .last-section {
     ul{
         padding-left: 0;
         margin-left: 20px;
