@@ -12,12 +12,10 @@ navButtons.forEach(button => {
         header.style.color = "black";
         divArea.style.display = "block";
 
+        //Asign value to check the current nav hovered
         currentNav = button.id
 
-        console.log(currentNav)
-
-        navDrops.forEach(div=> {
-            
+        navDrops.forEach(div=> {   
             if(currentNav === div.id ) {
                 div.style.display = "flex";
             } else {
@@ -28,16 +26,7 @@ navButtons.forEach(button => {
 
 })
 
-
-// navDrops.forEach(div => {
-//     div.addEventListener('mouseleave', () => {
-//         header.style.backgroundColor = "transparent";
-//         header.style.color = "white";
-//         div.style.display = "none";
-//         divArea.style.display = "none";
-//     })
-// })
-
+//To listen for mouse out on the drop down nav
 divArea.addEventListener('mouseleave', () => {
     header.style.backgroundColor = "transparent";
     header.style.color = "white";

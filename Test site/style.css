@@ -1,4 +1,4 @@
-#vehicles{
+/* #vehicles{
     width: 100%;
     height: max-content;
     display: flex;
@@ -35,7 +35,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     text-align: center;
 }
 
@@ -58,10 +57,42 @@
         margin-block: 1em;
         font-weight: 600;
     }
+} */
+
+#Discover {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    h4 {
+        font-weight: 600;
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: bold;
+    }
+
+    li{
+        list-style: none;
+        padding-bottom: 1rem;
+    }
+
+    ul {
+        padding-left: 0;
+    }
 }
 
+#Discover div {
+    margin-inline: 2rem;
+}
 
-
+#Discover a:hover {
+    border-bottom: solid 2px black;
+}
 
 
 

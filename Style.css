@@ -165,7 +165,7 @@ body{
 #area .nav-drop {
     width: 100%;
     z-index: 4;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 30px;
     background-color: #fff;
     display: none;
@@ -207,7 +207,7 @@ body{
 #area .nav-drop .first-section .sub-sections {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     /* align-items: center; */
     text-align: center;
 }
