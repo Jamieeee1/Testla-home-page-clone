@@ -32,11 +32,6 @@ body{
     width: 100%;
 }
 
-#hero[hovered] {
-    background-color: #fff;
-    color: #000;
-}
-
 #hero .logo {
     width: 30dvw;
 }
@@ -44,10 +39,6 @@ body{
     margin: 0;
     padding: 0;
     margin-left: 2.5em;
-}
-
-#hero nav{
-
 }
 
 #hero nav ul{
@@ -233,8 +224,37 @@ body{
     }
 }
 
+#area #nav-discover {
+    justify-content: center;
+    /* color: antiquewhite; */
 
+    h4 {
+        font-weight: 600;
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.3);
+    }
 
+    a {
+        font-weight: bold;
+    }
+
+    li{
+        list-style: none;
+        padding-bottom: 1rem;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    div {
+        margin-inline: 2rem;
+    }
+}
+
+#area #nav-discover a:hover {
+    border-bottom: solid 2px black;
+}
 
 
 

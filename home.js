@@ -18,8 +18,10 @@ navButtons.forEach(button => {
         navDrops.forEach(div=> {   
             if(currentNav === div.id ) {
                 div.style.display = "flex";
+                // button.style.backgroundColor = "antiquewhite" 
             } else {
                 div.style.display = "none";
+                // button.style.backgroundColor = "transparent" 
             }
         })
     })
