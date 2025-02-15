@@ -256,6 +256,10 @@ body{
     border-bottom: solid 2px black;
 }
 
+/* #area #nav-discover::-webkit-scrollbar, 
+#area #nav-charging::-webkit-scrollbar {
+    display: none;
+} */
 
 
 
