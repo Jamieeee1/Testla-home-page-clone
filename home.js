@@ -13,7 +13,7 @@ navButtons.forEach(button => {
         header.style.color = "black";
         divArea.style.display = "block";
 
-        button.style.backgroundColor = "antiquewhite" 
+        // button.style.backgroundColor = "antiquewhite" 
 
         //Asign value to check the current nav hovered
         currentNav = button.id
@@ -31,7 +31,7 @@ navButtons.forEach(button => {
         })
     })
 
-})2
+})
 
 //To listen for mouse out on the drop down nav
 divArea.addEventListener('mouseleave', () => {
