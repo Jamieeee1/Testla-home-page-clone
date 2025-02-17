@@ -45,6 +45,11 @@ divArea.addEventListener('mouseleave', () => {
 })
 
 
+window.addEventListener('scroll', () => {
+    const scrollp = window.scrollY
+    console.log(scrollp)
+
+})
 
 
 

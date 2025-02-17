@@ -38,6 +38,7 @@ body{
     position: absolute;
     z-index: 20;
     width: 100%;
+    padding-top: 15px;
 }
 
 #hero .logo {
@@ -83,8 +84,28 @@ body{
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
 }
 
+#hero .others a {
+    text-decoration: none;
+    color: inherit;
+
+    i{
+        font-size: 1.5rem;
+    }
+}
+
+#hero .others button {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+
+    i{
+        font-size: 1.5rem;
+    }
+}
 
 /* For nav divs  */
 
