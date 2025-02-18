@@ -6,6 +6,8 @@ const navDrops = document.querySelectorAll(".nav-drop")
 let isHovering = false
 let currentNav = ""
 let currentButton = ""
+let scrollp;
+let docHeight;
 
 navButtons.forEach(button => {
     button.addEventListener('mouseover', () => {
@@ -46,12 +48,19 @@ divArea.addEventListener('mouseleave', () => {
 
 
 window.addEventListener('scroll', () => {
-    const scrollp = window.scrollY
+    scrollp = window.scrollY
+
+    docHeight = document.documentElement.scrollHeight - window.innerHeight
+
     console.log(scrollp)
+    console.log(docHeight)
 
 })
 
-
+if (scrollp <= 100) {
+    header.style.backgroundColor = "transparent";
+    header.style.color = "white";
+}
 
 
 

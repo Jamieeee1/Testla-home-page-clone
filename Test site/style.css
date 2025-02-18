@@ -1,4 +1,96 @@
-/* #vehicles{
+#hero {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    padding-block: 6px;
+    /* color: #fff; */
+    color: black;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#hero .logo {
+    width: 30dvw;
+}
+#hero .logo h2 {
+    margin: 0;
+    padding: 0;
+    margin-left: 2.5em;
+}
+
+#hero nav ul{
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    align-items: center;
+}
+
+#hero nav li{
+    list-style: none;
+}
+
+#hero nav li button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+#hero nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#hero nav ul li > * {
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding-inline: 15px;
+    padding-block: 6px;
+}
+
+#hero .others {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+}
+
+#hero .others a {
+    text-decoration: none;
+    color: inherit;
+
+    i{
+        font-size: 1.5rem;
+    }
+}
+
+#hero .others button {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+
+    i{
+        font-size: 1.5rem;
+    }
+}
+
+.testClass {
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+ #vehicles{
     width: 100%;
     height: max-content;
     display: flex;
@@ -57,7 +149,7 @@
         margin-block: 1em;
         font-weight: 600;
     }
-} */
+} 
 
 #Discover {
     display: flex;
